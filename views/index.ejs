@@ -1,0 +1,58 @@
+<%-include('header')-%>
+  <!-- mission -->
+  <section class="home">
+    <div class="containermy" id="containermy">
+      <h2 class=" home-heading">Welcome To Donate Life India</h2>
+      <h4 class="primaryfont" >
+        'Not Everyone Has The Chance To Be God For Another; You Do'
+      </h4>
+      <div class="primaryfont" id="mission">
+        Our prime focus has always been and will always be to serve humanity unconditionally. Our vision is to bridge the gap between the number of people who need organs and the number of people who donate organs. We want to ensure that the maximum number of people pledge their organs for donation.We also aim to make the process of organ transplantation smoother and faster.
+      </div>
+    </div>
+  </section>
+  <!-- contact -->
+  <section class="contact" id="contact">
+      <div class="containermy" style="
+      margin: 11% auto 0% auto;">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2" style="margin: auto;">
+                <div>
+                  <h2 class="home-heading">Request for organ </h2>
+                </div>
+                <form method="post" action="/">
+                  <input type="hidden" data-form-email="true">
+                  <div class="form-group">
+                    <input type="text" class="form-control primaryfont" name="name" required="" placeholder="Name*" data-form-field="Name">
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control primaryfont" name="email" required="" placeholder="Email*" data-form-field="Email">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control primaryfont" name="phone" placeholder="Phone" data-form-field="Phone">
+                  </div>
+                  <div class="form-group">
+                    <textarea type="text" class="form-control primaryfont" name="message" placeholder="Message" rows="7" data-form-field="Message"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <select class="form-control primaryfont" name="organ">
+                      <option name="organ" value="Kidney"> Kidney</option>
+                      <option name="organ" value="Liver"> Liver</option>
+                      <option name="organ" value="Lungs"> Lungs</option>
+                      <option name="organ" value="Heart"> Heart</option><br><br>
+                    </select>
+                  </div>
+                  <div>
+                    <button type="submit" class="btn btn-lg btn-danger primaryfont">CONTACT US</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  
+  <%-include('footer')-%>

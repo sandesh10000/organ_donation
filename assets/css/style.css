@@ -1,0 +1,83 @@
+body{
+  background-color: aquamarine;
+}
+.containermy {
+  margin: 7% auto;
+  border-radius: 30px;
+  padding: 19px;
+  text-align: center;
+}
+.primaryfont{
+  font-family: 'Caveat', cursive;
+  font-size: 22px;
+  margin: 20px;
+  font-weight:700;
+  color: rgb(220, 252, 241);
+}
+#containermy::before{
+  content: "";
+  background:url("../../img/backgroundimg.jpg") no-repeat center center/cover ;
+  position: absolute;
+  height: 600px;
+  top:0px;
+  left:0px;
+  width: 100%;
+  z-index: -1;
+}
+.home-heading{
+  margin: auto;
+  font-family: 'Caveat', cursive;
+  font-size: 50px;
+  color: #dc3545;
+}
+.primaryfont2{
+  font-family: 'Caveat', cursive;
+  font-size: 1rem;
+  font-weight:700;
+  color: #dc3545;
+}
+.fontcss{
+  color: #dc3545;
+}
+a {
+	cursor: pointer;
+  transition: all 200ms linear;
+}
+a:hover {
+	text-decoration: none;
+}
+.link {
+  color: #c4c3ca;
+}
+.link:hover {
+  color: #ffeba7;
+}
+p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.7;
+}
+h4 {
+  font-weight: 600;
+}
+h6 span{
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.form-container{
+  border: 2px solid red;
+  border-radius: 25px;
+  padding: 30px;
+  margin: 10%;
+  color: #dc3545;
+  /* width:70%; */
+}
+.form-container2{
+  border: 2px solid red;
+  border-radius: 25px;
+  padding: 30px;
+  margin: 2%;
+  color: #dc3545;
+  /* width:70%; */
+}

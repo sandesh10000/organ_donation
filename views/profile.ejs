@@ -1,0 +1,47 @@
+<%-include('newheader')-%>
+  <!-- form -->
+  <section>
+    <p class="home-heading text-center">Organ donation form</p>
+    <div class="form-container2">
+      <form method="post" action="/profile">
+        <!-- 2 column grid layout with text inputs for the first and last names -->
+        <div class="row mb-4">
+          <div class="col">
+            <div class="form-outline">
+              <input type="text" name="first_name" id="form3Example1" class="form-control" />
+              <label class="form-label" for="form3Example1">First name</label>
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-outline">
+              <input type="text" name="last_name" id="form3Example2" class="form-control" />
+              <label class="form-label" for="form3Example2">Last name</label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+          <input type="email" name="email" id="form3Example3" class="form-control" />
+          <label class="form-label" for="form3Example3">Email address</label>
+        </div>
+        <label >I wish to donate</label><br>
+        <input type="checkbox" id="organ1" name="organ" value="Kidneys">
+        <label for="organ1">Kidneys</label><br>
+        <input type="checkbox" id="organ2" name="organ" value="liver">
+        <label for="organ2"> liver</label><br>
+        <input type="checkbox" id="organ3" name="organ" value="lungs">
+        <label for="organ3"> lungs</label><br>
+        <input type="checkbox" id="organ4" name="organ" value="heart">
+        <label for="organ3"> heart</label><br>
+
+
+        <!-- Submit button -->
+        <center><button type="submit" class="btn  btn-danger btn-block mb-4">Donate</button></center>
+
+    </div>
+    </form>
+    </div>
+  </section>
+
+  <%-include('footer')-%>
